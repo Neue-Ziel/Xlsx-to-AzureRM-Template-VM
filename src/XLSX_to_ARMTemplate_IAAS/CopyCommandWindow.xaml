@@ -1,0 +1,35 @@
+﻿<Window x:Name="Window_CopyCommand" x:Class="XLSX_to_ARMTemplate_IAAS.CopyCommandWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XLSX_to_ARMTemplate_IAAS"
+        mc:Ignorable="d"
+        Title="CopyCommandWindow" Height="560" Width="500" WindowStyle="None" ResizeMode="NoResize" WindowStartupLocation="CenterOwner" Background="#FFFFFBDF" ShowInTaskbar="False">
+    <Grid>
+        <Button x:Name="Button_OK" Content="OK" HorizontalAlignment="Left" Margin="405,526,0,0" VerticalAlignment="Top" Width="75" Click="Button_OK_Click" Background="#FFFBFBFB" FontSize="14"/>
+
+        <Button x:Name="Button_AzureRmResourceGroup" HorizontalAlignment="Left" Margin="21,30,0,0" VerticalAlignment="Top" Background="#FFFFF4AB" MaxWidth="470" Click="Button_AzureRmResourceGroup_Click">
+            <TextBlock Name="TextBlock_AzureRmResourceGroup" Text="AzureRmRG" TextWrapping="Wrap" TextAlignment="Left"/>
+        </Button>
+        <Button x:Name="Button_AzureRmDeployment" HorizontalAlignment="Left" Margin="21,91,0,0" VerticalAlignment="Top" Background="#FFFFF4AB" MaxWidth="470" Click="Button_AzureRmDeployment_Click">
+            <TextBlock Name="TextBlock_AzureRmDeployment" Text="AzureRmDeployment" TextWrapping="Wrap" TextAlignment="Left"/>
+        </Button>
+        
+        
+        <Button x:Name="Button_AzResourceGroup" HorizontalAlignment="Left" Margin="21,189,0,0" VerticalAlignment="Top" Background="#FFC0FFFF" MaxWidth="470" Click="Button_AzResourceGroup_Click">
+            <TextBlock Name="TextBlock_AzResourceGroup" Text="AzResourceGroup" TextWrapping="Wrap" TextAlignment="Left"/>
+        </Button>
+        <Button x:Name="Button_AzDeployment" HorizontalAlignment="Left" Margin="21,250,0,0" VerticalAlignment="Top" Background="#FFC0FFFF" MaxWidth="470" Click="Button_AzDeployment_Click">
+            <TextBlock Name="TextBlock_AzDeployment" Text="AzDeployment" TextWrapping="Wrap" TextAlignment="Left"/>
+        </Button>
+
+
+        <Button x:Name="Button_CliResourceGroup" HorizontalAlignment="Left" Margin="21,345,0,0" VerticalAlignment="Top" Background="#FFC0FFD1" MaxWidth="470" Click="Button_CliResourceGroup_Click">
+            <TextBlock Name="TextBlock_CliResourceGroup" Text="CliAzResourceGroup" TextWrapping="Wrap" TextAlignment="Left"/>
+        </Button>
+        <Button x:Name="Button_CliDeployment" HorizontalAlignment="Left" Margin="21,409,0,0" VerticalAlignment="Top" Background="#FFC0FFD1" MaxWidth="470" Click="Button_CliDeployment_Click">
+            <TextBlock Name="TextBlock_CliDeployment" Text="CliAzDeployment" TextWrapping="Wrap" TextAlignment="Left"/>
+        </Button>
+    </Grid>
+</Window>
