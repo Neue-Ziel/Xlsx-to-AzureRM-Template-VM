@@ -23,17 +23,17 @@ It does not create Azure VM directly, it only generates an ARM template based on
 
 * Click **Read**; choose your xlsx file;
 
-![Read](./Images/exe_form_01.png)
+![Read](/Images/exe_form_01.png)
 
 * Click **Generate**;
 
-![Generate](./Images/exe_form_02.png)
+![Generate](/Images/exe_form_02.png)
 
 * Log in your Azure account and make sure the correct context / subscription is chosen in your terminal (AZ Cli / AzureRm Powershell / Az pwsh);
 
 * Click the upper promoted command to create a Resource Group if required, paste to your terminal to execute; click the lower promoted command to make a new ARM deployment using the generated template file
 
-![command](./Images/exe_form_03.png)
+![command](/Images/exe_form_03.png)
 
 ## Resources and properties covered (ARM only)
 
