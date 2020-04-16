@@ -1,6 +1,6 @@
 # Xlsx-to-AzureRM-Template-VM
 
-Read from a Excel file and generate Azure ARM template for VM provisioning.
+Read from an Excel file and generate Azure ARM template for VM provisioning.
 
 This program is suggested to be used only if you have certain knowledges of Azure VM and it can simpify the creation of Azure VM(s) with most common options / properties.
 
@@ -8,7 +8,7 @@ It does not create Azure VM directly, it only generates an ARM template based on
 
 ## Prerequests
 
-* An valid Azure subscription;
+* A valid Azure subscription;
 
 * Have the basic concept of how to create Azure VM(s).
 
@@ -29,7 +29,7 @@ It does not create Azure VM directly, it only generates an ARM template based on
 
 ![Generate](/Images/exe_form_02.png)
 
-* Log in your Azure account and make sure the correct context / subscription is chosen in your terminal (AZ Cli / AzureRm Powershell / Az pwsh);
+* Log in your Azure account and make sure the correct context / subscription is chosen in your terminal (AzureRm Powershell / Az pwsh / AZ Cli);
 
 * Click the upper promoted command to create a Resource Group if required, paste to your terminal to execute; click the lower promoted command to make a new ARM deployment using the generated template file
 
